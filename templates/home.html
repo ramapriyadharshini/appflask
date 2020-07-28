@@ -1,0 +1,18 @@
+{% extends 'base.html'%}
+
+{% block head %}
+<title>Alchemist</title>
+<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit harum eum ipsum facere quibusdam optio odit? Tempore eveniet quis nesciunt perspiciatis dolores in repellendus quisquam facere ipsa, aliquam, labore aliquid.</h2>
+{% endblock %}
+
+{% block body %}
+<div id ="car">
+<form action="/login" method="POST">
+<label>Username</label>
+<input type="text" name="username">
+<label>password</label>
+<input type="password" name="password">
+<button type="submit">Login</button>
+</form>
+</div>
+{% endblock %}
